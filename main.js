@@ -1,6 +1,6 @@
-onload = () => {
-    const c = setTimeout(() => {
-      document.body.classList.remove("not-loaded");
-      clearTimeout(c);
+window.onload = () => {
+    setTimeout(() => {
+        document.body.classList.remove("not-loaded");
     }, 1000);
-  };
+};
+
